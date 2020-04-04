@@ -1,17 +1,17 @@
 url: https://github.com/TheRoboticsClub/colab-2020-Miguel-Azores
-baseurl: https://github.com/TheRoboticsClub/colab-2020-Miguel-Azores
+baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Pagina miguel
-email: miguelazorespicon@hotmail.com
-description: "descripcion."
+title: Awesome Title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Miguel Azores
+- name: Kay Garland
   pic: 1
-  position: Software designer
+  position: Lead Designer
   social:
     - title: twitter
       url: #
