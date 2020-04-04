@@ -21,9 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Miguel Azores Picon"
 description              : "to guapa."
-url                      : "https://github.com/TheRoboticsClub/colab-2020-Miguel-Azores"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "MiguelAzores/docs"
+url                      : "https://github.com"
+baseurl                  : "/TheRoboticsClub/colab-2020-Miguel-Azores"
+repository               : #"MiguelAzores/docs"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
