@@ -1,6 +1,6 @@
 ---
 title: Follow Line
-layout: posts/follow_line
+layout: posts
 permalink: /follow_line/
 
 collection: posts/follow_line
