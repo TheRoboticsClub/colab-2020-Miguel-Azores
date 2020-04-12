@@ -14,18 +14,18 @@ feature_row:
   - image_path: assets/images/cover/laptop-1035345_1280.jpg
     alt: "Proyects"
     title: "Proyects"
-    excerpt: "Goals, progress, problems and solutions achieved during development"
+    excerpt: "you can find my robots programming projects"
     url: "/logbook/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: " "
 
   - image_path: assets/images/cover/cafe2.jpeg
     alt: "Info"
-    title: "Info"
-    excerpt: "More information about the project. References used, guides, articles, etc."
+    title: "personal info"
+    excerpt: "My personal information."
     url: "/about/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"   
+    btn_label: "-"   
 youTube_id: ID7qaEcIu4k
 ---
 
@@ -36,8 +36,3 @@ Hello, everybody.
 I'm Miguel Azores and this is the place where we will be putting the advances that are made on the work of end of master.
 
 The objective of the work is the learning of the controllers of an autonomous vehicle so that it is able to complete the return to a circuit through learning by reinforcement.
-
-The tutors of the project are:
-
-- [Jose Maria Cañas](https://gsyc.urjc.es/jmplaza/)
-- [Eduardo Perdices](https://gsyc.urjc.es/~eperdices/)
