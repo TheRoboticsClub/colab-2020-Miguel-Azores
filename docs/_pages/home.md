@@ -19,6 +19,14 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
+  - image_path: assets/images/cover/white.png
+      alt: ""
+      title: ""
+      excerpt: ""
+      url: ""
+      btn_class: ""
+      btn_label: ""
+
   - image_path: assets/images/cover/cafe2.jpeg
     alt: "Info"
     title: "Info"
