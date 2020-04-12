@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#4587C8"
-  overlay_image:
+  overlay_image: /assets/images/cover/peloto_texto.png
   actions:
     #- label: "<i class='fas fa-download'></i> Install now"
     #  url: "/installation/"
@@ -26,6 +26,8 @@ feature_row:
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "------>"   
+
+
 youTube_id: ID7qaEcIu4k
 ---
 
