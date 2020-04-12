@@ -18,13 +18,13 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
-  - image_path: 
-#    alt: "Install"
-#    title: "Install"
-#    excerpt: "Use of the software. Instructions for replicating project content."
-#    url: "/install/"
-#    btn_class: "btn--primary"
-#    btn_label: "Learn more"
+  - image_path:
+    alt: 
+    title:
+    excerpt:
+    url:
+    btn_class:
+    btn_label:
 
   - image_path: /assets/images/cover/about.jpg
     alt: "Info"
