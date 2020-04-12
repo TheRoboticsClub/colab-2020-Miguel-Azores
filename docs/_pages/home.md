@@ -11,11 +11,11 @@ excerpt:
   Programming the intelligence of robots
 
 feature_row:
-  - image_path: assets/images/cover/laptop-1035345_1280.jpg
-    alt: "Proyects"
+  - image_path: assets/images/cover/f1.png
+    alt: "Follow Line"
     title: "Follow Line"
-    excerpt: "you can find my robots programming projects"
-    url: "/logbook/"
+    excerpt: "F1 follow line"
+    url: "/follow_line/"
     btn_class: "btn--primary"
     btn_label: "----->"
 
