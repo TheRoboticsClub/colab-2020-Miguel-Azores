@@ -9,8 +9,9 @@ header:
     #  url: "/installation/"
 excerpt:
   Programming the intelligence of robots
+
 feature_row:
-  - image_path: /assets/images/cover/logbook.jpg
+  - image_path: assets/images/cover/photo-1484417894907-623942c8ee29.jpeg
     alt: "Proyects"
     title: "Proyects"
     excerpt: "Goals, progress, problems and solutions achieved during development"
@@ -18,15 +19,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
-  - image_path:
-    alt: 
-    title:
-    excerpt:
-    url:
-    btn_class:
-    btn_label:
-
-  - image_path: /assets/images/cover/about.jpg
+  - image_path: assets/images/cover/cafe.jpeg
     alt: "Info"
     title: "Info"
     excerpt: "More information about the project. References used, guides, articles, etc."
