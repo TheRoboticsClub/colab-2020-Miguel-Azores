@@ -1,29 +1,28 @@
 # main links
 main:
 
-  - title: LogBook
+  - title: Proyects
     url: /logbook/
 
-  - title: Installation
-    url: /install/
+  # - title: Installation
+  #   url: /install/
 
-  - title: References
+  - title: Info
     url: /references/
 
 # left side bar
 docs:
-  - title: LogBook
+  - title: Proyects
     children:
       - title: Check it out
         url: /
 
-  - title: Installation
-    children: 
-    - title: How to install
-      url: /install/
+  # - title: Installation
+  #   children:
+  #   - title: How to install
+  #     url: /install/
 
   - title: About
     children:
-    - title: References
+    - title: Info
       url: /references/
-  
