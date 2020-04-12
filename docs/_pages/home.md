@@ -13,14 +13,30 @@ excerpt:
 feature_row:
   - image_path: assets/images/cover/laptop-1035345_1280.jpg
     alt: "Proyects"
-    title: "     Proyects"
+    title: "Follow Line"
     excerpt: "you can find my robots programming projects"
     url: "/logbook/"
     btn_class: "btn--primary"
     btn_label: "----->"
 
   - image_path: assets/images/cover/cafe2.jpeg
-    alt: "Info"
+    alt: "Vacum cleaner"
+    title: "     Vacum cleaner"
+    excerpt: "You can find my personal information."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "------>"   
+
+  - image_path: assets/images/cover/laptop-1035345_1280.jpg
+    alt: "Proyects"
+    title: "Amazon transport"
+    excerpt: "you can find my robots programming projects"
+    url: "/logbook/"
+    btn_class: "btn--primary"
+    btn_label: "----->"
+
+  - image_path: assets/images/cover/cafe2.jpeg
+    alt: "Vacum cleaner"
     title: "     Personal info"
     excerpt: "You can find my personal information."
     url: "/about/"
