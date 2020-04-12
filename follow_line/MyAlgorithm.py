@@ -120,62 +120,37 @@ class MyAlgorithm(threading.Thread):
         points_1 = np.where(np.logical_or(diff_1 > 0, diff_1 < -200))
 
         cv2.line(image,(0,start_height_0),(640,start_height_0),(0,255,0),8)
-        cv2.line(image,(0,start_height_1),(640,start_height_1),(0,255,0),8)
-        cv2.line(image,(0,(start_height_0 + start_height_1)/2),(640,(start_height_0 + start_height_1)/2),(255,255,255),8)
+        # cv2.line(image,(0,start_height_1),(640,start_height_1),(0,255,0),8)
+        # cv2.line(image,(0,(start_height_0 + start_height_1)/2),(640,(start_height_0 + start_height_1)/2),(255,255,255),8)
 
         middle_0 = 220
         if len(points_0) > 0 and len(points_0[0]) > 1: # if finds something like a black line
             middle_0 = (points_0[0][0] + points_0[0][-1]) / 2
             print middle_0
-            cv2.circle(image, (middle_0, start_height_0), 5, (0,0,255), -1)
 
-        # if len(points_1) > 0 and len(points_1[0]) > 1: # if finds something like a black line
-        #     print len(points_1)
-        #     middle_1 = (points_1[0][0] + points_1[0][-1]) / 2
-        #     print middle_1
-        #     #cv2.circle(image, (points_1[0][0], start_height_1), 5, (255,0,0), -1)
-        #     #cv2.circle(image, (points_1[0][-1], start_height_1), 5, (255,0,255), -1)
-        #     cv2.circle(image, (middle_1, start_height_1), 5, (0,0,255), -1)
-        #     self.drawLines(image)
-		#
-        # cv2.circle(image, ((middle_1 + middle_0)/2, (start_height_0 + start_height_1)/2), 8, (0,0,0), -1)
+        cv2.line(image,(320,0),(320,600),(0,0,0),5)
+        cv2.line(image,(320,start_height_0),(middle_0,start_height_0),(255,0,0),8)
+        cv2.circle(image, (middle_0, start_height_0), 5, (0,0,255), -1)
 
-        # print cX
         if (middle_0 < 310):
             print "poquito derecha"
-            self.motors.sendV(9)
+            self.motors.sendV(11)
             self.motors.sendW(0.01)
-            if(middle_0 < 290):
-                print "DERECHA"
-                self.motors.sendV(7)
-                self.motors.sendW(0.1)
-                if(middle_0 < 270):
-                	print "mas Derecha"
-                	self.motors.sendV(6)
-                	self.motors.sendW(0.8)
-                	if(middle_0 < 250):
-                		print "MAX DER"
-                		self.motors.sendV(6)
-                		self.motors.sendW(1.1)
-
+            if(middle_0 < 300):
+	            print "derecha = ", ((0.02*(-(middle_0 - 320))) - 0.5)
+	            self.motors.sendV((-0.04*(-(middle_0 - 320))) + 10.8)
+	            self.motors.sendW(((0.02*(-(middle_0 - 320))) - 0.5))
+		#
         elif (middle_0 > 330):
             print "poquito izquierda"
-            self.motors.sendV(9)
-            self.motors.sendW(-0.01)
-            if (middle_0 > 350):
-                print "IZQUIERDA"
-                self.motors.sendV(7)
-                self.motors.sendW(-0.1)
-                if(middle_0 > 380):
-                	print "mas IZquierda"
-                	self.motors.sendV(6)
-                	self.motors.sendW(-0.8)
-                	if(middle_0 > 400):
-                		print "MAX IZ"
-                		self.motors.sendV(6)
-                		self.motors.sendW(-1.1)
-        else:
             self.motors.sendV(11)
+            self.motors.sendW(-0.01)
+            if(middle_0 > 340):
+	            print "izquierda = ", -((0.02*(middle_0 - 320)) - 0.5)
+	            self.motors.sendV((-0.04*(middle_0 - 320)) + 10.8)
+	            self.motors.sendW(-((0.02*(middle_0 - 320)) - 0.5))
+        else:
+            self.motors.sendV(12)
 
 
         self.set_threshold_image(mask)
