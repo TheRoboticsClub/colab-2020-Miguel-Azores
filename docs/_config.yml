@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air"
 
 # Site Settings
 #locale                   : "en-US"
-title                    : "Miguel programs"
+title                    : "Miguel Azores Picón"
 title_separator          : "-"
 subtitle                 : Programming Robot Intelligence
-name                     : "JdeRobot Miguel"
+name                     : "Miguel Azores"
 description              : "Programming Robot Intelligence"
 url                      : https://theroboticsclub.github.io/colab-2020-Miguel-Azores/
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -122,24 +122,24 @@ analytics:
 # PROFILE
 # Site Author
 author:
-  name             : "Nacho Arranz"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "Site for Master Thesis"
-  location         : "Madrid"
+  name             : "Miguel Azores Picón"
+  avatar           : "https://avatars1.githubusercontent.com/u/17254915?s=460&u=f61b484eabaacb4f3ea5f072d2f46d5ef628a218&v=4"
+  bio              : "My colaboration in JdeRobot"
+  location         : "Jerez de la frontera"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: n.arranz.agueda@gmail.com
+      url: miguelazorespicon@hotmail.com
     - label: "About Me"
       icon: "fas fa-fw fa-link"
-      url: "https://igarag.github.io/online-cv/"
+      url: "https://github.com/MiguelAzores"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/i__arranz"
+      url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/igarag/2019-tfm-ignacio-arranz"
+      url: "https://github.com/MiguelAzores"
     #- label: "Youtube"
     #  icon: "fab fa-fw fa-youtube"
     #  url: "https://www.youtube.com/channel/UCgmUgpircYAv_QhLQziHJOQ"
@@ -163,16 +163,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/roboticslaburjc"
+      url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/RoboticsLabURJC"
+      url: ""
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
     #  url:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCgmUgpircYAv_QhLQziHJOQ"
+      url: ""
 
 
 # Reading Files
