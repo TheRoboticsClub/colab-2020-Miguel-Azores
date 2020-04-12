@@ -1,7 +1,7 @@
 ---
 title: Follow Line
 layout: posts
-permalink: /follow_line/
+permalink: /logbook/
 
 collection: posts/follow_line
 
