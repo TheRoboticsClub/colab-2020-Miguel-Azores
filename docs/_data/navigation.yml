@@ -1,5 +1,6 @@
 # main links
 main:
+    color: "#41A1FF"
 
   - title: Proyects
     url: /logbook/
