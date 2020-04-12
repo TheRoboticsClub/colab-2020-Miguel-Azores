@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#0080FF"
-  overlay_image: /assets/images/cover/peloto_texto.png
+  overlay_image: 
   actions:
     #- label: "<i class='fas fa-download'></i> Install now"
     #  url: "/installation/"
