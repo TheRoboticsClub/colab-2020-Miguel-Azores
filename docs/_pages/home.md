@@ -2,8 +2,8 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#0080FF"
-  overlay_image: 
+  overlay_color: "#41A1FF"
+  overlay_image:
   actions:
     #- label: "<i class='fas fa-download'></i> Install now"
     #  url: "/installation/"
@@ -18,7 +18,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
-#  - image_path: /assets/images/cover/install.png
+  - image_path: 
 #    alt: "Install"
 #    title: "Install"
 #    excerpt: "Use of the software. Instructions for replicating project content."
