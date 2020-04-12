@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#41A1FF"
+  overlay_color: "#4587C8"
   overlay_image:
   actions:
     #- label: "<i class='fas fa-download'></i> Install now"
@@ -19,7 +19,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
-  - image_path: assets/images/cover/cafe.jpeg
+  - image_path: assets/images/cover/cafe2.jpeg
     alt: "Info"
     title: "Info"
     excerpt: "More information about the project. References used, guides, articles, etc."
