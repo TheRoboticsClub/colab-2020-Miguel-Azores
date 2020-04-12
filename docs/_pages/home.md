@@ -11,21 +11,13 @@ excerpt:
   Programming the intelligence of robots
 
 feature_row:
-  - image_path: assets/images/cover/photo-1484417894907-623942c8ee29.jpeg
+  - image_path: assets/images/cover/laptop-1035345_1280.jpg
     alt: "Proyects"
     title: "Proyects"
     excerpt: "Goals, progress, problems and solutions achieved during development"
     url: "/logbook/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-
-  - image_path: assets/images/cover/white.png
-      alt: ""
-      title: ""
-      excerpt: ""
-      url: ""
-      btn_class: ""
-      btn_label: ""
 
   - image_path: assets/images/cover/cafe2.jpeg
     alt: "Info"
