@@ -23,7 +23,7 @@ feature_row:
     alt: "Personal info"
     title: "Personal info"
     excerpt: "You can find my personal information."
-    url: "/about/"
+    url: "/references/"
     btn_class: "btn--primary"
     btn_label: "------>"   
 ---
