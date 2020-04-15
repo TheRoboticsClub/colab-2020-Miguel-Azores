@@ -49,9 +49,21 @@ The goal of this exercise is to perform a PID reactive control capable of follow
 Had to program a Formula1 car in a race circuit to follow the red line in the middle of the road.
 You can find all the information about this exercise in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/exercises/AutonomousCars/follow_line/)
 
-## Image processing
+## IMAGE PROCESSING
 
 For the image processing i have used [OpenCV](https://opencv.org/).
 I have searched the center point of the red line at a certain height of the image to work with in in the controller. I have drawn a green line at the same height to see the movement of the point more clearly and a vertical line in the center of the image that determines the place where the point should be. To show the error in the image, I have painted a red line on the green.
 
 {% include gallery id="imageproc" caption="image processing" %}
+
+## CONTROLLER
+
+For the implementation of the control algorithm I have worked with an equation that regulates the angular and linear velocity according to the position in which the center point of the line is located, which I mentioned in the previous section.
+I have obtained this equation by assigning a certain speed to each point on the green line.
+
+## VIDEO OF THE SOLUTION
+
+[Youtube link](https://www.youtube.com/watch?v=9kCj6eeHf3Y&t=1s)
+
+[X] Lap time simulation: 48 seconds.
+[X] Lap time real: 48 seconds.
