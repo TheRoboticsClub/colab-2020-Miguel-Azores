@@ -15,7 +15,7 @@ feature_row:
     alt: "Follow Line"
     title: "Follow Line"
     excerpt: "F1 follow line"
-    url: "/exercises/follow_line/"
+    url: "/logbook/"
     btn_class: "btn--primary"
     btn_label: "----->"
 
