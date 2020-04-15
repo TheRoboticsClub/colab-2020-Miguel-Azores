@@ -3,7 +3,7 @@ title: Proyects
 layout: posts
 permalink: /logbook/
 
-collection: posts
+collection: postsfollowline
 
 classes: wide
 
