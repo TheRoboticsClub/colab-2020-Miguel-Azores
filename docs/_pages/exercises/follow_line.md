@@ -1,5 +1,5 @@
 ---
-permalink: /exercises/AutonomousCars/follow_line/
+permalink: /exercises/
 title: "Visual Follow Line"
 
 sidebar:
@@ -12,32 +12,6 @@ toc_icon: "cog"
 <!--- layout: archive --->
 
 <!--- classes: wide --->
-
-gallery:
-  - url: /assets/images/exercises/follow_line/formula1_circuit.png
-    image_path: /assets/images/exercises/follow_line/formula1_circuit.png
-    alt: "Racing circuit."
-    title: "Racing circuit."
-  - url: /assets/images/exercises/follow_line/formula1.png
-    image_path: /assets/images/exercises/follow_line/formula1.png
-    alt: "First Person."
-    title: "First Person."
-  - url: /assets/images/exercises/follow_line/formula1_2.png
-    image_path: /assets/images/exercises/follow_line/formula1_2.png
-    alt: "Model."
-    title: "Model."
-
-gifs:
-  - url: /assets/images/exercises/follow_line/oscillations.gif
-    image_path: /assets/images/exercises/follow_line/oscillations.gif
-    alt: "examples"
-    title: "examples"
-  - url: /assets/images/exercises/follow_line/slowresponse.gif
-    image_path: /assets/images/exercises/follow_line/slowresponse.gif
-    alt: "examples"
-    title: "examples"
-
-
 
 youtubeId: eNuSQN9egpA
 
