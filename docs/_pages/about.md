@@ -5,9 +5,16 @@ permalink: /about/
 
 classes: wide
 
+toc: true
+toc_label: "TOC Visual Follow Line"
+toc_icon: "cog"
+
+<!--- layout: archive --->
+
+<!--- classes: wide --->
 ---
 
-##Presentation
+## Presentation
 
 Hi I'm Miguel Azores Picón, I'm a student of robotics software engineering in Rey Juan Carlos University.
 
