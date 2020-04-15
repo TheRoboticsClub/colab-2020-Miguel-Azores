@@ -54,4 +54,4 @@ You can find all the information about this exercise in [JdeRobot Academy](http:
 For the image processing i have used [OpenCV](https://opencv.org/).
 I have searched the center point of the red line at a certain height of the image to work with in in the controller. I have drawn a green line at the same height to see the movement of the point more clearly and a vertical line in the center of the image that determines the place where the point should be. To show the error in the image, I have painted a red line on the green.
 
-{% include imageproc caption="imageproc" %}
+{% include gallery id="imageproc" caption="image processing" %}
