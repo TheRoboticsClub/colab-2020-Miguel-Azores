@@ -1,9 +1,9 @@
 ---
 title: Proyects
-layout: postsfollowline
+layout: archive
 permalink: /follow_line/
 
-collection: postsfollowline
+collection: postfollowline/2020-04-12-lastImplementation.md
 
 classes: wide
 
