@@ -19,6 +19,14 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "----->"
 
+- image_path: assets/images/exercises/vacum_cleaner/vacuum_cleaner.png
+      alt: "Vacum cleaner"
+      title: "Vacum cleaner"
+      excerpt: "Vacum cleaner"
+      url: "/follow_line/"
+      btn_class: "btn--primary"
+      btn_label: "----->"
+
   - image_path: assets/images/cover/cafe2.jpeg
     alt: "Personal info"
     title: "Personal info"
