@@ -1,6 +1,6 @@
 ---
 title: Proyects
-layout: posts
+layout: postsfollowline
 permalink: /follow_line/
 
 collection: postsfollowline
