@@ -3,7 +3,7 @@ title: Follow Line
 layout: posts
 permalink: /logbook/
 
-collection: posts/follow_line/
+collection: posts
 
 classes: wide
 
