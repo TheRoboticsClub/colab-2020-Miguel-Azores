@@ -27,8 +27,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "------>"   
 ---
-## HELLO EVERYBODY
-
 {% include feature_row %}
+
+## HELLO EVERYBODY
 
 I'm Miguel Azores and this is the place where i will be putting the advances on my work in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/)
