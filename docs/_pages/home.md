@@ -19,38 +19,32 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "----->"
 
-  - image_path: assets/images/cover/cafe2.jpeg
+  <!-- - image_path: assets/images/cover/cafe2.jpeg
     alt: "Vacum cleaner"
     title: "     Vacum cleaner"
     excerpt: "You can find my personal information."
     url: "/about/"
     btn_class: "btn--primary"
-    btn_label: "------>"   
+    btn_label: "------>"    -->
 
-  - image_path: assets/images/cover/laptop-1035345_1280.jpg
+  <!-- - image_path: assets/images/cover/laptop-1035345_1280.jpg
     alt: "Proyects"
     title: "Amazon transport"
     excerpt: "you can find my robots programming projects"
     url: "/logbook/"
     btn_class: "btn--primary"
-    btn_label: "----->"
+    btn_label: "----->" -->
 
   - image_path: assets/images/cover/cafe2.jpeg
-    alt: "Vacum cleaner"
-    title: "     Personal info"
+    alt: "Personal info"
+    title: "Personal info"
     excerpt: "You can find my personal information."
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "------>"   
-
-
-youTube_id: ID7qaEcIu4k
 ---
+## HELLO EVERYBODY
+
+I'm Miguel Azores and this is the place where i will be putting the advances on my work in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/)
 
 {% include feature_row %}
-
-Hello, everybody.
-
-I'm Miguel Azores and this is the place where we will be putting the advances that are made on the work of end of master.
-
-The objective of the work is the learning of the controllers of an autonomous vehicle so that it is able to complete the return to a circuit through learning by reinforcement.
