@@ -1,20 +1,12 @@
 ---
-permalink: /exercises/AutonomousCars/follow_line/
-title: "Visual Follow Line"
+title: Follow_line
+layout: archive
+permalink: /exercises/follow_lne/
+
+classes: wide
 
 sidebar:
   nav: "docs"
-
-toc: true
-toc_label: "TOC Visual Follow Line"
-toc_icon: "cog"
-
-<!--- layout: archive --->
-
-<!--- classes: wide --->
-
-youtubeId: eNuSQN9egpA
-
 ---
 
 ## Goal
