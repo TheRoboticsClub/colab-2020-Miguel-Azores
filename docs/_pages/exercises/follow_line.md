@@ -1,7 +1,7 @@
 ---
 title: Proyects
 layout: posts
-permalink: /logbook/
+permalink: /follow_line/
 
 collection: postsfollowline
 
