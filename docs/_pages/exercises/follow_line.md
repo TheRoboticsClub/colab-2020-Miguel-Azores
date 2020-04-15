@@ -68,7 +68,7 @@ I have searched the center point of the red line at a certain height of the imag
 For the implementation of the control algorithm I have worked with an equation that regulates the angular and linear velocity according to the position in which the center point of the line is located, which I mentioned in the previous section.
 I have obtained this equation by assigning a certain speed to each point on the green line.
 
-{% include gallery id="geogebra" caption="velocity equation" %}
+{% include gallery id="equation" caption="velocity equation" %}
 
 ## VIDEO OF THE SOLUTION
 
