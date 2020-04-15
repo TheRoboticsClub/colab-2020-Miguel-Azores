@@ -29,6 +29,6 @@ feature_row:
 ---
 ## HELLO EVERYBODY
 
-I'm Miguel Azores and this is the place where i will be putting the advances on my work in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/)
-
 {% include feature_row %}
+
+I'm Miguel Azores and this is the place where i will be putting the advances on my work in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/)
