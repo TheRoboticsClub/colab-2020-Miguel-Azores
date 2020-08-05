@@ -23,7 +23,7 @@ feature_row:
     alt: "Vacum cleaner"
     title: "Vacum cleaner"
     excerpt: "Vacum cleaner"
-    url: "/Vacuum_cleaner/"
+    url: "/vacuum_cleaner/"
     btn_class: "btn--primary"
     btn_label: "----->"
 
