@@ -17,18 +17,10 @@ toc_icon: "cog"
 <!--- classes: wide --->
 
 gallery:
-- url: /assets/images/exercises/vacum_cleaner/vacuum_cleaner.png
-  image_path: /assets/images/exercises/vacuum_cleaner/vacum_cleaner.png
+- url: /assets/images/exercises/vacum_cleaner/vacuum_cleaner_plan.png
+  image_path: /assets/images/exercises/vacum_cleaner/vacuum_cleaner_plan.png
   alt: "Vacuum init"
   title: "Vacuum init"
-- url: /assets/images/exercises/follow_line/formula1.png
-  image_path: /assets/images/exercises/follow_line/formula1.png
-  alt: "First Person."
-  title: "First Person."
-- url: /assets/images/exercises/follow_line/formula1_2.png
-  image_path: /assets/images/exercises/follow_line/formula1_2.png
-  alt: "Model."
-  title: "Model."
 
 imageproc:
 - url: /assets/images/exercises/follow_line/imageprocc1.png
