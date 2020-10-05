@@ -8,7 +8,7 @@ header:
     #- label: "<i class='fas fa-download'></i> Install now"
     #  url: "/installation/"
 excerpt:
-  Programming the intelligence of robots
+  My development in the mobile robotics subject
 
 feature_row:
   - image_path: assets/images/cover/f1.png
@@ -39,4 +39,4 @@ feature_row:
 
 ## HELLO EVERYBODY
 
-I'm Miguel Azores and this is the place where i will be putting the advances on my work in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/)
+I'm Miguel Azores and this is the place where i will be putting my progress in "mobile robotics" subject. In this subject we work wor with [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/).

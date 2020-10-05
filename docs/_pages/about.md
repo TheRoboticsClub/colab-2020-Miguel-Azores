@@ -9,7 +9,7 @@ toc: true
 toc_label: "TOC Visual Follow Line"
 toc_icon: "cog"
 
-<!--- layout: archive --->
+<!--- layout: single --->
 
 <!--- classes: wide --->
 ---
