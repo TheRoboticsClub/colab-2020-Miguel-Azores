@@ -8,7 +8,7 @@ header:
     #- label: "<i class='fas fa-download'></i> Install now"
     #  url: "/installation/"
 excerpt:
-  My development in the mobile robotics subject
+  My progress in the mobile robotics subject
 
 feature_row:
   - image_path: assets/images/cover/f1.png
