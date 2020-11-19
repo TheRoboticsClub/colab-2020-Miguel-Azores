@@ -58,7 +58,7 @@ Coverage Path Planning is an important area of research in Path Planning for rob
 
 For the implementation i have used differents statest in order to cover the largest uncleaned area and avoid repetitions. Modes are selected by a state machine, it use an increasing circle pattern (spiral) and a bump and go algorithm.
 
-{% include gallery id="equation" caption="velocity equation" %}
+{% include gallery id="imageproc" caption="implementations" %}
 
 ## THE WAY TO THE SOLUTION
 
