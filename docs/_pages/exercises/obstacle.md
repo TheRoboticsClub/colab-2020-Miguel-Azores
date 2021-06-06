@@ -39,7 +39,7 @@ equation:
 
 The goal of this exercise is to implement the logic of the Virtual Force Field (VFF) navigation algorithm in a car who has to avoid obstacles in a race.
 
-{% include gallery caption="Gallery" %}
+{% include gallery %}
 
 You can find all the information about this exercise in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/exercises/MobileRobots/vacuum_cleaner)
 
@@ -48,7 +48,7 @@ You can find all the information about this exercise in [JdeRobot Academy](http:
 In this exercise we have to use two tipes of navigation , global and local navigation. Global Navigation involves the use of a map of the environment to plan a path from point A to point B. Local Navigation involves a dynamically changing path plan taking into consideration the changing surroundings and the vehicle constraints. 
 The virtual Force Field Algorithm generate an atractive vector (force) to the waiypoint that points towards the waypoint. The robot assigns a repulsive vector to the obstacle according to its sensor readings that points away from the waypoint. This is done by summing all the vectors that are translated from the sensor readings.The robot follows the vector obtained by summing the target and obstacle vector.
 
-{% include gallery id="vff" caption="Virtual Force Field Algortithm" %}
+{% include gallery id="vff" %}
 
 ## MY IMPLEMENTATION
 
