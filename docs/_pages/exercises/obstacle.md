@@ -52,20 +52,11 @@ The virtual Force Field Algorithm generate an atractive vector (force) to the wa
 
 ## MY IMPLEMENTATION
 
-For the implementation i have used differents statest in order to cover the largest uncleaned area and avoid repetitions. Modes are selected by a state machine, it use an increasing circle pattern (spiral) and a bump and go algorithm.
-
-{% include gallery id="imageproc" caption="implementations" %}
-
-## THE WAY TO THE SOLUTION
-
-Searching the most efficient algorithm first I tried a simple bump and go pattern using the bumper sensor and a random angular velocity but it was not an optimal solution  because, despite not being unclosed, it did not cover much surface, only lines.
-
-After it, i tried  to make the vacuum cleaner follow a certain pattern of turns to cover the house with parallel lines, but it was impossible due to the pool quality of the motors.
-
-Using a spiral pattern i solve the problem of the bump and yo, wich only covers in a straight line. The problem with the spiral algorith is that it always clean in the same place. To fix it, I have combined both with the aim of move around the house with bump and go and clean more sruface with spiral pattern.
+For the implementation i have create three forces:
+*Atractive force:* Is a vector from the robot to the target. To implement this vector i had to convert the absolute target coordinate to relative (formula 1 coordinates). 
+*Repulsive force:* Is a vector obtained by the sumatory of all the repulsive forces. Repulsive forces are vectors from the obstacles to the robot, if the robot is near an obstacle, the repulsive force is high. This type of repulsion makes the car always prefer to be in the center of the circuit if there are no obstacles because lateral forces balance.
+*Resultan force:* The resultant force is generated bades on the tentioned above. I calculate it following an acuation with especific parameters to each force.
 
 
 [Youtube link](https://www.youtube.com/watch?v=9kCj6eeHf3Y&t=1s)
 
-- [X] Lap time simulation: 48 seconds.
-- [X] Lap time real: 48 seconds.

@@ -69,7 +69,7 @@ After it, i tried  to make the vacuum cleaner follow a certain pattern of turns 
 Using a spiral pattern i solve the problem of the bump and yo, wich only covers in a straight line. The problem with the spiral algorith is that it always clean in the same place. To fix it, I have combined both with the aim of move around the house with bump and go and clean more sruface with spiral pattern.
 
 
-[Youtube link](https://www.youtube.com/watch?v=9kCj6eeHf3Y&t=1s)
+[Youtube link](https://youtu.be/itvcsLQjzUQ)
 
 - [X] Lap time simulation: 48 seconds.
 - [X] Lap time real: 48 seconds.
