@@ -27,6 +27,14 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "----->"
 
+  - image_path: assets/images/exercises/obstacle/obstacle.png
+    alt: "Obstacle avoidance"
+    title: "Obstacle avoidance"
+    excerpt: "Obstacle avoidance"
+    url: "/obstacle/"
+    btn_class: "btn--primary"
+    btn_label: "----->"
+
   - image_path: assets/images/cover/cafe2.jpeg
     alt: "Personal info"
     title: "Personal info"
