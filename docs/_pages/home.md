@@ -35,6 +35,14 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "----->"
 
+  - image_path: assets/images/exercises/taxi/taxi_init.png
+    alt: "Autonomous taxi"
+    title: "Autonomous taxi"
+    excerpt: "Autonomous taxi"
+    url: "/taxi/"
+    btn_class: "btn--primary"
+    btn_label: "----->"
+
   - image_path: assets/images/cover/cafe2.jpeg
     alt: "Personal info"
     title: "Personal info"
