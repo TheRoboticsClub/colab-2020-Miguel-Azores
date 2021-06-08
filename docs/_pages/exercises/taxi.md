@@ -72,7 +72,7 @@ I have obtained this equation by assigning a certain speed to each point on the 
 
 ## VIDEO OF THE SOLUTION
 
-[Youtube link](https://www.youtube.com/watch?v=9kCj6eeHf3Y&t=1s)
+[Youtube link](https://www.youtube.com/watch?v=B5lmRhTmefE)
 
 - [X] Lap time simulation: 48 seconds.
 - [X] Lap time real: 48 seconds.
