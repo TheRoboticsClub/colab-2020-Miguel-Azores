@@ -21,14 +21,10 @@ gallery:
   image_path: /assets/images/exercises/taxi/taxi_init.png
   alt: "Taxi"
   title: "Taxi"
-- url: /assets/images/exercises/follow_line/formula1.png
-  image_path: /assets/images/exercises/follow_line/formula1.png
-  alt: "First Person."
-  title: "First Person."
-- url: /assets/images/exercises/follow_line/formula1_2.png
-  image_path: /assets/images/exercises/follow_line/formula1_2.png
-  alt: "Model."
-  title: "Model."
+- url: /assets/images/exercises/taxi/taxi.png
+  image_path: /assets/images/exercises/taxi/taxi.png
+  alt: "Taxi."
+  title: "Taxi."
 
 imageproc:
 - url: /assets/images/exercises/follow_line/imageprocc1.png
@@ -49,18 +45,16 @@ equation:
 ---
 ## GOAL
 
-The goal of this exercise is to perform a PID reactive control capable of following the line painted on the racing circuit.
+The objective of this practice is to implement the logic of a Gradient Path Planning (GPP) algorithm. To implement this, we have to divide the exercise in two parts, first we have to select a destination and find the shortest path to it. Once the path has been selected, se have to implement an algorithm to follow this path and reach the destination.
 
 {% include gallery caption="Gallery" %}
 
-Had to program a Formula1 car in a race circuit to follow the red line in the middle of the road.
 You can find all the information about this exercise in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/exercises/AutonomousCars/follow_line/)
 
-## IMAGE PROCESSING
+## Find the shortest path
 
-For the image processing i have used [OpenCV](https://opencv.org/).
-I have searched the center point of the red line at a certain height of the image to work with in in the controller. I have drawn a green line at the same height to see the movement of the point more clearly and a vertical line in the center of the image that determines the place where the point should be. To show the error in the image, I have painted a red line on the green.
-
+We have to see the map as a grid. On this grid, we start giving to each box who is over the road a 255 value, for the rest os boxes we assign the 0 value. Now we hace a grid where we can wath our road map "painted" with 255 value.
+After this, we have to create an algorithm for the gradient expansion. We are going to start in the destination and put his box value in 0. We have to expand this value to all neighbors adding 1 to current value who are in line and √2 to al diagonals boxes.
 {% include gallery id="imageproc" caption="image processing" %}
 
 ## CONTROLLER

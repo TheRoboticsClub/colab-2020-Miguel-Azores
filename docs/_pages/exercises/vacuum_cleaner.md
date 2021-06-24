@@ -56,20 +56,17 @@ Coverage Path Planning is an important area of research in Path Planning for rob
 
 ## MY IMPLEMENTATION
 
-For the implementation i have used differents statest in order to cover the largest uncleaned area and avoid repetitions. Modes are selected by a state machine, it use an increasing circle pattern (spiral) and a bump and go algorithm.
+For the implementation i have used differents states in order to cover the largest uncleaned area and avoid repetitions. Modes are selected by a state machine, it use an increasing circle pattern (spiral) and a bump and go algorithm.
 
 {% include gallery id="imageproc" caption="implementations" %}
 
 ## THE WAY TO THE SOLUTION
 
-Searching the most efficient algorithm first I tried a simple bump and go pattern using the bumper sensor and a random angular velocity but it was not an optimal solution  because, despite not being unclosed, it did not cover much surface, only lines.
+Searching the most efficient algorithm first I tried a simple bump and go pattern using the bumper sensor and a random angular velocity but it was not an optimal solution because, despite not being unclosed, it did not cover much surface, only lines.
 
 After it, i tried  to make the vacuum cleaner follow a certain pattern of turns to cover the house with parallel lines, but it was impossible due to the pool quality of the motors.
 
-Using a spiral pattern i solve the problem of the bump and yo, wich only covers in a straight line. The problem with the spiral algorith is that it always clean in the same place. To fix it, I have combined both with the aim of move around the house with bump and go and clean more sruface with spiral pattern.
+Using a spiral pattern i solve the problem of the bump and yo, wich only covers in a straight line. The problem with the spiral algorith is that it always cleanning in the same place. To fix it, I have combined both with the aim of move around the house with bump and go and clean more surface with spiral pattern.
 
 
-[Youtube link](https://youtu.be/itvcsLQjzUQ)
-
-- [X] Lap time simulation: 48 seconds.
-- [X] Lap time real: 48 seconds.
+[Youtube link](https://www.youtube.com/watch?v=1kzCSAuBgjA)

@@ -41,7 +41,7 @@ The goal of this exercise is to implement the logic of the Virtual Force Field (
 
 {% include gallery %}
 
-You can find all the information about this exercise in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/exercises/MobileRobots/vacuum_cleaner)
+You can find all the information about this exercise in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/exercises/AutonomousCars/obstacle_avoidance)
 
 ## THEORY
 
@@ -53,10 +53,13 @@ The virtual Force Field Algorithm generate an atractive vector (force) to the wa
 ## MY IMPLEMENTATION
 
 For the implementation i have create three forces:
-*Atractive force:* Is a vector from the robot to the target. To implement this vector i had to convert the absolute target coordinate to relative (formula 1 coordinates). 
-*Repulsive force:* Is a vector obtained by the sumatory of all the repulsive forces. Repulsive forces are vectors from the obstacles to the robot, if the robot is near an obstacle, the repulsive force is high. This type of repulsion makes the car always prefer to be in the center of the circuit if there are no obstacles because lateral forces balance.
-*Resultan force:* The resultant force is generated bades on the tentioned above. I calculate it following an acuation with especific parameters to each force.
+**Atractive force:** Is a vector from the robot to the target. To implement this vector i had to convert the absolute target coordinate to relative (formula 1 coordinates). 
+**Repulsive force:** Is a vector obtained by the sumatory of all the repulsive forces. Repulsive forces are vectors from the obstacles to the robot, if the robot is near an obstacle, the repulsive force is high. This type of repulsion makes the car always prefer to be in the center of the circuit if there are no obstacles because lateral forces balance.
+**Resultan force:** The resultant force is generated based on those mentioned above. I calculate it following an acuation with especific parameters to each force.
+
+**Resultant force = A*(Atractive force) + B*(Repulsive force)**
 
 
+You can see the final simulation in this link.
 [Youtube link](https://www.youtube.com/watch?v=Hze2KMPzR5Y)
 
