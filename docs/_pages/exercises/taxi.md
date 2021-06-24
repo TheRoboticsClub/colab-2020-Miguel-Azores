@@ -51,7 +51,6 @@ You can find all the information about this exercise in [JdeRobot Academy](http:
 
 We have to see the map as a grid. On this grid, we start giving to each box who is over the road a 255 value, for the rest os boxes we assign the 0 value. Now we hace a grid where we can wath our road map "painted" with 255 value.
 After this, we have to create an algorithm for the gradient expansion. We are going to start in the destination and put his box value in 0. We have to expand this value to all neighbors adding 1 to current value who are in line and √2 to al diagonals boxes. We have one wave front array to expand our wave, each iteration we increment the value of the cells.
-{% include gallery id="imageproc" caption="image processing" %}
 
 ## Find the shortest path
 
