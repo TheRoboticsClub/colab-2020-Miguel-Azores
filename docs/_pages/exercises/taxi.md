@@ -27,20 +27,16 @@ gallery:
   title: "Taxi."
 
 imageproc:
-- url: /assets/images/exercises/follow_line/imageprocc1.png
-  image_path: /assets/images/exercises/follow_line/imageprocc1.png
-  alt: "Image proccesing."
-  title: "Image proccesing."
-- url: /assets/images/exercises/follow_line/imageprocc2.png
-  image_path: /assets/images/exercises/follow_line/imageprocc2.png
-  alt: "Image proccesing."
-  title: "Image proccesing."
+- url: /assets/images/exercises/taxi/weights.png
+  image_path: /assets/images/exercises/taxi/weights.png
+  alt: "Wafe front"
+  title: "Wafe front"
 
-equation:
-- url: /assets/images/exercises/follow_line/geogebra.png
-  image_path: /assets/images/exercises/follow_line/geogebra.png
-  alt: "equation."
-  title: "equation."
+path:
+- url: /assets/images/exercises/taxi/pathExample.png
+  image_path: /assets/images/exercises/taxi/pathExample.png
+  alt: "path"
+  title: "path"
 
 ---
 ## GOAL
@@ -51,22 +47,22 @@ The objective of this practice is to implement the logic of a Gradient Path Plan
 
 You can find all the information about this exercise in [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/exercises/AutonomousCars/follow_line/)
 
-## Find the shortest path
+## Create a grid with a Front Wave algorithm.
 
 We have to see the map as a grid. On this grid, we start giving to each box who is over the road a 255 value, for the rest os boxes we assign the 0 value. Now we hace a grid where we can wath our road map "painted" with 255 value.
-After this, we have to create an algorithm for the gradient expansion. We are going to start in the destination and put his box value in 0. We have to expand this value to all neighbors adding 1 to current value who are in line and √2 to al diagonals boxes.
-{% include gallery id="imageproc" caption="image processing" %}
+After this, we have to create an algorithm for the gradient expansion. We are going to start in the destination and put his box value in 0. We have to expand this value to all neighbors adding 1 to current value who are in line and √2 to al diagonals boxes. We have one wave front array to expand our wave, each iteration we increment the value of the cells.
+
+## Find the shortest path
+
+When we have our grid with values of weights for each grid starting in the target an finishing in our taxi, we can create the shortest path. To do this, we are goins to start in the car position and, iteratively, we want always the lowest value around the position, just with one wafe front. This algorithm give us the shortest path walking over the lowest values of each iteration. The image below will be a good exaple of this algoritm.
+
 
 ## CONTROLLERRRRRRRRRRRRRRRRRRRRR
 
-For the implementation of the control algorithm I have worked with an equation that regulates the angular and linear velocity according to the position in which the center point of the line is located, which I mentioned in the previous section.
-I have obtained this equation by assigning a certain speed to each point on the green line.
+## Follow path
 
-{% include gallery id="equation" caption="velocity equation" %}
+To follow the path, we take two angles and compare them. The first angle is the orientation of the car in terms of the global map. The second one is the angle of the lowest point of the gradient, to the car. With these two angles we will know how much has to rotate the car and his direction. To define the lineal velocity y had set a constant value. If angular velocity is high, low lineal speed.
 
 ## VIDEO OF THE SOLUTION
 
 [Youtube link](https://www.youtube.com/watch?v=B5lmRhTmefE)
-
-- [X] Lap time simulation: 48 seconds.
-- [X] Lap time real: 48 seconds.

@@ -56,6 +56,11 @@ Coverage Path Planning is an important area of research in Path Planning for rob
 
 ## MY IMPLEMENTATION
 
+**Bump and go:**
+
+To implement a bump and go algorithm first, i have used the bumper sensor and a random angular velocity and random time to create a random turn to avoid loops. It is a good algorithm to avoid loops but not to cover a surface.
+
+**Combinated algorithm:**
 For the implementation i have used differents states in order to cover the largest uncleaned area and avoid repetitions. Modes are selected by a state machine, it use an increasing circle pattern (spiral) and a bump and go algorithm.
 
 {% include gallery id="imageproc" caption="implementations" %}
