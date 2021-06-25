@@ -57,7 +57,7 @@ We have to see the map as a grid. On this grid, we start giving to each box who 
 After this, we have to create an algorithm for the gradient expansion. We are going to start in the destination and put his box value in 0. We have to expand this value to all neighbors adding 1 to current value who are in line and √2 to al diagonals boxes.
 {% include gallery id="imageproc" caption="image processing" %}
 
-## CONTROLLER
+## CONTROLLERRRRRRRRRRRRRRRRRRRRR
 
 For the implementation of the control algorithm I have worked with an equation that regulates the angular and linear velocity according to the position in which the center point of the line is located, which I mentioned in the previous section.
 I have obtained this equation by assigning a certain speed to each point on the green line.
