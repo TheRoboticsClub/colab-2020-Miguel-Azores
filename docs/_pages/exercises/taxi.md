@@ -56,7 +56,8 @@ After this, we have to create an algorithm for the gradient expansion. We are go
 
 When we have our grid with values of weights for each grid starting in the target an finishing in our taxi, we can create the shortest path. To do this, we are goins to start in the car position and, iteratively, we want always the lowest value around the position, just with one wafe front. This algorithm give us the shortest path walking over the lowest values of each iteration. The image below will be a good exaple of this algoritm.
 
-{% include gallery id="path" caption="path example" %}
+
+## CONTROLLERRRRRRRRRRRRRRRRRRRRR
 
 ## Follow path
 
