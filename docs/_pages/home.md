@@ -55,4 +55,4 @@ feature_row:
 
 ## HELLO EVERYBODY
 
-I'm Miguel Azores and this is the place where i will be putting my progress in "mobile robotics" subject. We work with [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/).
+I'm Miguel Azores Picón and this is the place where i will be putting my progress in "mobile robotics" subject. We work with [JdeRobot Academy](http://jderobot.github.io/RoboticsAcademy/).
